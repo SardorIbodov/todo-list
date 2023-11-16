@@ -1,0 +1,33 @@
+table {
+  width: 600px;
+  margin: 10px auto;
+}
+
+button {
+  width: 65px;
+  font-size: 12px;
+}
+
+td {
+  padding: 1px;
+  text-align: center;
+}
+
+.add {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  table {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  table {
+    width: 98%;
+    font-size: 12px;
+  }
+}
